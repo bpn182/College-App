@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\cosmosFragment\Cosmos\app\libs\android-query-full.0.26.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5ab405d9f4eaf5ddd615967cd35650657b758d40">
+        <dex dex="E:\cosmosFragment\Cosmos\app\build\intermediates\pre-dexed\debug\android-query-full.0.26.8_8d07a3be3161763c25a3896f02f3597da1a8d594.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c4171e">
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cosmos1"
+        android:layout_width="80dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="Cosmos College"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="21sp"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:text="  Together today for sucessful tomorrow  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

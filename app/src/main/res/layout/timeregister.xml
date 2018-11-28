@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day"
+        />
+
+    <EditText
+        android:id="@+id/teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="teacher"
+        />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="subject"
+        />
+    <EditText
+        android:id="@+id/room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="room"
+        />
+
+
+    <EditText
+        android:id="@+id/starts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Starts"
+        />
+    <EditText
+        android:id="@+id/ends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ends"
+        />
+    <Button
+        android:id="@+id/register"
+        android:text="register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/login"
+        android:text="login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

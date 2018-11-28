@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="BE ELEX"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:background="#ff3939"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <uk.co.senab.photoview.PhotoView
+            android:id="@+id/elex1"
+            android:layout_margin="5dp"
+            android:background="@drawable/elex1"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <uk.co.senab.photoview.PhotoView
+            android:id="@+id/elex2"
+            android:layout_margin="5dp"
+            android:background="@drawable/elex2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+    </LinearLayout>
+</ScrollView>

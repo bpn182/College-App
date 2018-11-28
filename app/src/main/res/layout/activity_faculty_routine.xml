@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/courseOffered"
+                android:text="Routines"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#c4181e"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <Button
+                android:id="@+id/beit"
+                android:background="@drawable/button_round"
+                android:padding="10dp"
+                android:text="BEIT"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/comp"
+                android:text="Computer"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_round2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <Button
+                android:id="@+id/elex"
+                android:background="@drawable/button_round4"
+                android:padding="10dp"
+                android:text="Electronics"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/civil"
+                android:text="Civil"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_round3"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <Button
+                android:id="@+id/arch"
+                android:background="@drawable/button_round5"
+                android:padding="10dp"
+                android:text="ARCH"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/bba"
+                android:text="BBA"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_round6"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
